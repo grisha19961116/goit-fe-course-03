@@ -27,6 +27,7 @@ body {
 .part2 {
   display: inline-block;
   width: 420px;
+
 }
 
 .part3,
@@ -54,7 +55,7 @@ body {
 .part4,
 .part6 {
   margin-right: 0px;
-  margin-left: 0px;
+  margin-left: -.36em;
   margin-top: 0px;
   margin-bottom: 0px;
 }
