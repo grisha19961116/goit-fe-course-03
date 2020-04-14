@@ -5,6 +5,7 @@ body {
   background-color: white;
   color: #626262;
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
   line-height: 17px;
 }
@@ -27,7 +28,6 @@ body {
 .part2 {
   display: inline-block;
   width: 420px;
-
 }
 
 .part3,
@@ -55,7 +55,7 @@ body {
 .part4,
 .part6 {
   margin-right: 0px;
-  margin-left: -.36em;
+  margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -116,7 +116,7 @@ body {
   color: #626262;
   font-size: 14px;
   text-align: center;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 h3 {
