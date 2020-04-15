@@ -17,6 +17,9 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.part:nth-last-of-type(even) {
+  margin-right: 0px;
+}
 .partsecond {
   display: inline-block;
   width: 420px;
