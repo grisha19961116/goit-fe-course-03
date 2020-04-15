@@ -12,13 +12,13 @@ body {
 .part {
   display: inline-block;
   width: 420px;
-  margin-right: 56px;
+  margin-right: 0px;
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .part:nth-last-of-type(even) {
-  margin-right: 0px;
+  margin-right: 56px;
 }
 
 .main-menu {
