@@ -1,21 +1,12 @@
 body {
   font-family: "Playfair Display", serif;
-  width: 900px;
-  margin: 0 auto;
   background-color: white;
   color: #626262;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 17px;
+  line-height: 24px;
 }
-
-.main {
-  width: 900px;
-  padding: 0px;
-  margin: 0 auto;
-}
-
 .conteiner {
   box-sizing: border-box;
   width: 900px;
@@ -61,60 +52,44 @@ body {
 }
 
 .main-nav {
+  box-sizing: border-box;
   width: 900px;
-  padding: 0px;
   margin: 0 auto;
+  padding: 0px 0px;
+  border: 0px;
 }
-
-.main-header {
-  width: 900px;
-  padding: 0px;
-  margin: 0 auto;
-}
-
 .main-menu {
-  display: inline-block;
-  width: 900px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0px 0px;
+  border: 0px;
 }
-
-.leftlink {
+.link {
   display: inline-block;
-  width: 75px;
-  padding: 103px 0px 74px 156px;
+  padding: 0px 0px;
+  margin-top: 72px;
+  margin-bottom: 102px;
+  margin-right: 102px;
+  margin-left: 0px;
+  text-align: center;
+}
+.link:last-child {
+  margin-right: 160px;
+}
+.link:first-child {
+  margin-left: 160px;
 }
 
-.secondlink {
-  display: inline-block;
-  padding: 103px 0px 74px 117px;
-  width: 90px;
-}
-
-.thirdlink {
-  display: inline-block;
-  padding: 103px 0px 74px 99px;
-  width: 50px;
-}
-
-.rightlink {
-  display: inline-block;
-  padding: 103px 156px 74px 90px;
-  width: 55px;
-}
-
-.main-menu-link1:hover,
-.main-menu-link1:focus {
+.main-menu .link a:hover,
+.main-menu-link:focus {
   color: rgb(14, 160, 228);
 }
 
-.main-menu a {
+.main-menu .link a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
-  line-height: 17px;
+  line-height: 24px;
   color: #626262;
-  font-size: 14px;
   text-align: center;
   text-transform: uppercase;
 }
