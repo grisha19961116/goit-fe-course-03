@@ -27,9 +27,9 @@ body {
 }
 
 .main-menu {
-  width: 900px;
+  width: 580px;
   margin: 0 auto;
-  padding: 0px 0px;
+  padding: 0px 160px 0px 160px;
   border: 0px;
 }
 
@@ -40,14 +40,11 @@ body {
   margin-bottom: 100px;
   margin-right: 102px;
   margin-left: 0px;
+  text-align: center;
 }
 
 .link:last-child {
-  margin-right: 160px;
-}
-
-.link:first-child {
-  margin-left: 160px;
+  margin-right: 0px;
 }
 
 .main-menu .link a:hover,
